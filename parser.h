@@ -10,7 +10,7 @@ using namespace std;
 
 class Parser{
   public:
-  void parseInput();
+  void parseInput(string,string,string);
   void parseCircuit(Circuit* );
   vector<Pat> parseInputPattern();
   void output(vector<Pat>);
